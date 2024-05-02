@@ -5,3 +5,46 @@
 }
 
 /* Start coding here */
+
+:root {
+  /* Variable-Color Start*/
+  --branding-color: #ff7f50;
+  --secondary-color: cornsilk;
+  --highlight-color: #d2691e;
+  --muted-color: #a9a9a9;
+  /* Variable-Color End*/
+
+  /* Variable-Margin Start*/
+  --level-margin-1: 1px;
+  --level-margin-2: 5px;
+  --level-margin-3: 10px;
+  --level-margin-4: 15px;
+  --level-margin-5: 20px;
+  /* Variable-Margin End*/
+
+  /* Variable-Paddding Start*/
+  --level-padding-1: 1px;
+  --level-padding-2: 5px;
+  --level-padding-3: 10px;
+  --level-padding-4: 15px;
+  --level-padding-5: 20px;
+  /* Variable-Paddding End*/
+
+  /* Variable-Font-Size Start*/
+  --small: 12px;
+  --medium: 16px;
+  --large: 20px;
+  --extra-large: 30px;
+  --double-extra-large: 50px;
+  --triple-extra-large: 100px;
+  /* Variable-Font Size End*/
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: var(--level-padding-5);
+}
+h1 {
+  color: var(--branding-color);
+  font-size: var(--triple-extra-large);
+}
